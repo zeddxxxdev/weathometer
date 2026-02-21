@@ -85,7 +85,7 @@ export default function Page() {
               <h6 className="font-urbanist text-xl">
                 Financial independence age
               </h6>
-              <div className="grid w-fit grid-cols-2 font-urbanist">
+              <div className="relative grid w-fit grid-cols-2 font-urbanist">
                 <div
                   style={{ boxShadow: "0px 0px 24px 0px #4A90E240" }}
                   className="space-y-1 rounded-l-lg border border-white bg-[#F9F9F9] px-7 py-3 text-center text-muted-foreground"
@@ -96,6 +96,14 @@ export default function Page() {
                     Based on current savings <br /> you have
                   </p>
                 </div>
+
+                <div className="absolute top-[45%] left-1/2 flex w-fit -translate-1/2 items-center">
+                  <div className="z-10 rounded-l bg-[#00BA00] px-2.5 py-1.5 text-[10px] font-bold text-white">
+                    ✨ 27 years sooner !
+                  </div>
+                  <div className="absolute top-[52%] right-0 aspect-square h-[19.5px] origin-center translate-x-2.5 -translate-y-1/2 rotate-45 rounded-r-xs bg-[#00BA00]" />
+                </div>
+
                 <div
                   style={{ boxShadow: "0px 0px 24px 0px #4A90E240" }}
                   className="space-y-1 rounded-r-lg border border-white bg-[#EAF4FB] px-7 py-3 text-center text-foreground"
